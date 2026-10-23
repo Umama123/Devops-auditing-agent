@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.coverage
+venv/
+*.trace.jsonl
+report.json
