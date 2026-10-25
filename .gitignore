@@ -1,7 +1,32 @@
+# Secrets — never commit
 .env
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test artifacts
 .coverage
+.pytest_cache/
+htmlcov/
+
+# Virtual environment
 venv/
-*.trace.jsonl
+.venv/
+env/
+
+# Agent output files
 report.json
+*.trace.jsonl
+
+# PDF assignment files — do not commit
+*.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
